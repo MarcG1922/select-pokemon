@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: "Roboto";
+}
+
 .cardPokemon{
-margin-top: 20px;
-padding: 20px;
-background: rgb(133, 243, 133);
-color: rgb(0, 0, 0);
-border-radius: 15px;
-text-align: center;
-max-width: 300px;
-}
-
-.cardPokemon img{
-    height: 300px;
-    width: 150px;
-}
-
-.error {
-  color: red;
+  margin-top: 20px;
+  padding: 20px;
+  background: rgb(133, 243, 133);
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  border: 3px solid black;
   text-align: center;
+  max-width: 250px;
+}
+
+.cardPokemon img {
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .typesBox {
